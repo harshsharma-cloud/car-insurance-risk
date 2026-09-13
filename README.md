@@ -19,10 +19,9 @@ A Logistic Regression model was selected after comparing it against Random Fores
 ## Applications
 
 1. Prediction Interface** (`app/streamlit_app.py`) — enter a customer profile and get an instant risk verdict.
-[https://car-insurance-risk-9g2gfruyer9cvm7zwh5jst.streamlit.app/]
 
 2. Stakeholder Dashboard** (`app/dashboard.py`) — analytics view covering claim patterns by segment, feature importance, model performance curves, error analysis, and evidence-backed focus areas.
-
+[https://car-insurance-risk-rkjd2pxnhhsxjngdy55nwj.streamlit.app/]
 
 
 ## Running locally
