@@ -1,0 +1,48 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+
+# === Virtual Environment ===
+.venv/
+venv/
+env/
+ENV/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === Model Artifacts ===
+# Joblib/pickle files can be large - regenerate with train.py
+models/*.joblib
+models/*.pkl
+models/*.pickle
+!models/final_pipeline.joblib
+
+# === Data ===
+# Dataset is public/educational — kept in repo for reproducibility
+# Uncomment below if you do NOT want to commit the raw data:
+# data/raw/*.csv
+
+# === Reports / Figures ===
+# Generated figures are reproducible from notebooks — optionally exclude:
+# reports/figures/*.png
+# reports/figures/*.svg
+
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# === Misc ===
+*.log
+*.tmp
+.env
+.env.local
